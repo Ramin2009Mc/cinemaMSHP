@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кинотеатр MSHP</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js" defer></script>
+    <link rel="icon" href="assets/favicon.png" type="icon/png">
+</head>
+
+<body>
+    <header>
+        <h1>Фильм "МШП: противостояние девелоперов"</h1>
+    </header>
+    <main>
+        <p class = "screenP"><img class="screen" src="assets/screen.svg" alt="screen position">
+        <section class="places">
+            <button id="x1y1" class="place closed">1</button>
+            <button id="x1y2" class="place">2</button>
+            <button id="x1y3" class="place">3</button>
+            <button id="x1y4" class="place">4</button>
+            <button id="x2y1" class="place">5</button>
+            <button id="x2y2" class="place">6</button>
+            <button id="x2y3" class="place">7</button>
+            <button id="x2y4" class="place">8</button>
+            <button id="x3y1" class="place">9</button>
+            <button id="x3y2" class="place">10</button>
+            <button id="x3y3" class="place">11</button>
+            <button id="x3y4" class="place">12</button>
+            <button id="x4y1" class="place">13</button>
+            <button id="x4y2" class="place">14</button>
+            <button id="x4y3" class="place">15</button>
+            <button id="x4y4" class="place">16</button>
+        </section>
+    </p>
+    </main>
+    
+    <footer>
+        <button class = "conf" id="confirm" class="btn">Оформить</button>
+        <section class = "plInfo" id="places-info">
+            <p>Выбрано мест: <span class = "info" id="place-count">0</span></p>
+            <p>Стоимость билетов: <span class = "info" id="price">0</span></p>
+        </section>
+        <section class = "rules">
+        <p class = "inst"><img class = "greySquare" src = "assets/grey.png"> - занято<br>     <img class = "purpleSquare" src = "assets/Purple.png"> - свободно<br> <img class = "blueSquare" src = "assets/blue.png"> - выбрано</p>
+    </section>
+    </footer>
+</body>
+
+</html>

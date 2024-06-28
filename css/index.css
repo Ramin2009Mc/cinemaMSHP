@@ -1,0 +1,129 @@
+
+
+html, body {
+    font-family
+    : 'Arial';
+}
+header{
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.plInfo{
+    position: absolute;
+    border: solid 1px rgb(181, 180, 180);
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    color: white;
+}
+
+.conf{
+    position: absolute;
+    margin-left: 1000px;
+    font-size: 20px;
+    background-color: #0A7AFF;
+    color: white;
+    border: none;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.conf:hover{
+    transition: 1000ms;
+    background-color: whitesmoke;
+    color: #1c1c1c;
+    font-size: 23px;
+}
+
+html{
+    background-color: #1c1c1c;
+}
+
+main{
+    background-color: #ecf0f3;
+}
+
+.screenP{
+    text-align: center;
+    padding-top: 20px;
+    user-select: none;
+}
+
+.places{
+    margin: 20px auto;
+    width: 500px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.place{
+    width: 45px;
+    height: 45px;
+    margin: 2px 0;
+    border-radius: 30%;
+    border: none;
+    background-color: #895F9B;
+    color: #ffff;
+    user-select: none;
+    cursor: pointer;
+}
+
+.closed{
+    background-color: #686868;
+    cursor: not-allowed;
+}
+.active{
+    background-color: #3c77ff;
+}
+
+.place:hover{
+    border-radius: 38%;
+}
+
+.inst{
+    color: white;
+    position:absolute;
+    margin-left: 550px;
+}
+
+.password{
+    position: absolute;
+    margin-top: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+.num{
+    width: 45px;
+    height: 45px;
+    margin: 2px 0;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.stroka{
+    border: 1px solid white;
+    border-radius: 20px;
+    color:white;
+}
+
+.greySquare{
+    width: 15px;
+}
+
+.purpleSquare{
+    width: 15px;
+}
+
+.blueSquare{
+    width: 15px;
+}
